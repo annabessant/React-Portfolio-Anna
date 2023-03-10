@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from '../Header';
 
 export default function Home() {
   return (
     <div>
+        {/* <Header backgroundImage="https://i.imgur.com/qkdpN.jpg">
+            <h1>Pupster</h1>
+            <h2>They're the Good Boys and Girls</h2>
+        </Header> */}
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
