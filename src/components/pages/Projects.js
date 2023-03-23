@@ -38,7 +38,6 @@ export default function Projects() {
           <a href="https://annabessant.github.io/Bootstrap_Portfolio/" target="_blank" class="project-link">Deployment</a>
         </Col> 
         <Col sm="4" className="Project">                
-          {/* <img src={Project5} alt="Evo Design Studio" /> */}
           <h4 class="project-title">My Team 🎶</h4>
           <p className='info-p'> Takes in information about employees on a team, then generates an HTML webpage that displays summaries for each person.
           </p>
@@ -49,18 +48,16 @@ export default function Projects() {
         </Col>       
         </Row>
         <Row className='pt-4'>
-        <Col sm="4" className="Project">    
-          {/* <img src={Project3} alt="counselor jyoti" /> */}
+        <Col sm="4" className="Project">
           <h4 class="project-title">5 Day Weather Forecast 🌨️</h4>
           <p className='info-p'> Shows weather conditions for a searched city and presents data with a 5-day forecast.
           </p>
-          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project4} alt="Project_4_weather_dashboard.png" />
+          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project1} alt="Project_1_Password_Generator.png" /> 
           <a href="https://github.com/annabessant/Server-APIs-Weather-Dashboard" target="_blank" class="project-link">GitHub Repo</a>
           <br></br>
           <a href="https://annabessant.github.io/Server-APIs-Weather-Dashboard/" target="_blank" class="project-link">Deployment</a>
       </Col>
       <Col sm="4" className="Project">                
-          {/* <img src={Project4} alt="Car Galaxy" /> */}
           <h4 class="project-title">ReadMe Generator💻</h4>
           <p className='info-p'> Generates a professional README.md file from a user's input using the Inquirer package.
           </p>
@@ -70,11 +67,10 @@ export default function Projects() {
           <a href="https://watch.screencastify.com/v/zXTWfzLMnpdB0AbBDkT5" target="_blank" class="project-link">Demo Video 🎥</a>
       </Col>
       <Col sm="4" className="Project">                
-          {/* <img src={Project5} alt="Evo Design Studio" /> */}
           <h4 class="project-title">Movie project🎞️</h4>
           <p className='info-p'> Searches for movies, shows a trailer, stores. Done with Matt Gaarder & Milda Jancauskaite.
           </p>
-          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project6} alt="Project_6_Movie.png" />
+          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project1} alt="Project_1_Password_Generator.png" /> 
           <a href="https://github.com/MattGaarder/moovie-project" target="_blank" class="project-link">GitHub Repo</a>
           <br></br>
           <a href="https://mattgaarder.github.io/moovie-project/" target="_blank" class="project-link">Deployment</a>  

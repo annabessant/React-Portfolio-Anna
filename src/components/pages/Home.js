@@ -1,5 +1,8 @@
 import React from 'react';
 import Header from '../Header';
+import "./Home.css"
+let Image1 = "/assets/images/Anna_Bessant.jpg";
+let Image2 = "/assets/images/Project_7_Web_garage.png";
 
 export default function Home() {
   return (
@@ -8,18 +11,17 @@ export default function Home() {
             <h1>Pupster</h1>
             <h2>They're the Good Boys and Girls</h2>
         </Header> */}
-      <h1>Home Page</h1>
+      <h3>I am Anna 😊 and who are you?😉</h3>
+      <img height="150px" width="150px" src={process.env.PUBLIC_URL+Image1} alt="Self-portrait" /> 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      Web design is my new area of interest. I am fascinated about coding.
+      <br></br>
+      I have other areas of interest such as photography or another recent one like canva design that I post using Intagram yet another new area to discover.
+      <br></br>
+      I am trying to learn how to apply my natural designer skills to coding. I am grateful to Thomas Scott and Ralph Cox for the opportunity to join the team work on web Garage where I could contribute with my sense of color, visual representation and idea conceptualization. 
+      {/* <a href="https://github.com/tascott" target="_blank" rel="noreferrer"></a> */}
+      {/* <a href="https://github.com/essexgit" target="_blank" rel="noreferrer"></a> */}
+      <img height="250px" width="200px" src={process.env.PUBLIC_URL+Image2} alt="Web_Garage_App_Screenshot" />  
       </p>
     </div>
   );
