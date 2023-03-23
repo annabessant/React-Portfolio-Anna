@@ -24,9 +24,12 @@ export default function Projects() {
           <p className='info-p'> An app that generates a password when the button is clicked with 10-64 characters of lower-, upper-, numeric and/or special case.
           </p>
           <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project1} alt="Project_1_Password_Generator.png" /> 
-          <a href="https://github.com/annabessant/Password-Generator" target="_blank" class="project-link">GitHub Repo</a>
-          <br></br>
-          <a href="https://annabessant.github.io/Password-Generator/" target="_blank" class="project-link">Deployment</a>
+          {/* <div style = "width:400px"> */}
+            {/* <div style="float: left; width:200px"> */}
+          <a href="https://github.com/annabessant/Password-Generator" target="_blank" class="project-link"><button data-inline="true">GitHub Repo</button></a>
+          {/* <br></br> */}
+          <a href="https://annabessant.github.io/Password-Generator/" target="_blank" class="project-link"><button data-inline="true">Deployment</button></a>
+          {/* </div> */}
         </Col>
         <Col sm="4" className="Project">  
         <h4 class="project-title">Bootstrap portfolio 🧑‍🦳</h4>

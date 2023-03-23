@@ -3,3 +3,10 @@
     border: solid 1px gray;
     border-radius: 5px;
 }
+
+.Project {
+    text-align: center;
+}
+.project-link {
+    margin:  5px;
+}
