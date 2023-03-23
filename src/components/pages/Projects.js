@@ -4,9 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 let Project1 = "/assets/images/Project_1_Password_Generator.png";
 let Project2 = "/assets/images/Project_2_Bootstrap_portfolio.png";
 let Project3 = "/assets/images/Project_3_My_Team.png";
-let Project4 = "/assets/images/Project_4_weather_dahsboard.png";
+let Project4 = "/assets/images/Project_4_weather_dashboard.png";
 let Project5 = "/assets/images/Project_5_Prof_README.png";
-let Project6 = "/assets/images/Project_6_Movie";
+let Project6 = "/assets/images/Project_6_Movie.png";
 
 
 
@@ -16,7 +16,7 @@ export default function Projects() {
       {/* Portfolio Section */}
       <section className="PortfolioSection">
       <Container>
-          <h2>Recent Projects</h2>
+          <h2 style={{backgroundColor: "lightblue"}}>Recent Projects</h2>
           <p>"A journey of thousand miles begins with a single step" (Lao Tsu, 571 BC). These are mine beginner's steps.</p>
         <Row className="ProjectsList">
         <Col sm="4" className="Project">                 
@@ -52,7 +52,7 @@ export default function Projects() {
           <h4 class="project-title">5 Day Weather Forecast 🌨️</h4>
           <p className='info-p'> Shows weather conditions for a searched city and presents data with a 5-day forecast.
           </p>
-          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project1} alt="Project_1_Password_Generator.png" /> 
+          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project4} alt="Project_1_Password_Generator.png" /> 
           <a href="https://github.com/annabessant/Server-APIs-Weather-Dashboard" target="_blank" class="project-link">GitHub Repo</a>
           <br></br>
           <a href="https://annabessant.github.io/Server-APIs-Weather-Dashboard/" target="_blank" class="project-link">Deployment</a>
@@ -70,7 +70,7 @@ export default function Projects() {
           <h4 class="project-title">Movie project🎞️</h4>
           <p className='info-p'> Searches for movies, shows a trailer, stores. Done with Matt Gaarder & Milda Jancauskaite.
           </p>
-          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project1} alt="Project_1_Password_Generator.png" /> 
+          <img height="250px" width="250px" src={process.env.PUBLIC_URL+Project6} alt="Project_1_Password_Generator.png" /> 
           <a href="https://github.com/MattGaarder/moovie-project" target="_blank" class="project-link">GitHub Repo</a>
           <br></br>
           <a href="https://mattgaarder.github.io/moovie-project/" target="_blank" class="project-link">Deployment</a>  

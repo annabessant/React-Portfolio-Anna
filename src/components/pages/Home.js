@@ -11,7 +11,7 @@ export default function Home() {
             <h1>Pupster</h1>
             <h2>They're the Good Boys and Girls</h2>
         </Header> */}
-      <h3>I am Anna 😊 and who are you?😉</h3>
+      <h3 style={{backgroundColor: "lightblue"}}>I'm Anna Bessant😊</h3>
       <img height="150px" width="150px" src={process.env.PUBLIC_URL+Image1} alt="Self-portrait" /> 
       <p>
       Web design is my new area of interest. I am fascinated about coding.

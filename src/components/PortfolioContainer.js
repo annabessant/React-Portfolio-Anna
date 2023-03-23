@@ -25,8 +25,8 @@ export default function PortfolioContainer() {
     <div>
         <Header backgroundImage="https://i.imgur.com/qkdpN.jpg">
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-            <h1>Pupster</h1>
-            <h2>They're the Good Boys and Girls</h2>
+            <h1>Welcome</h1>
+            <h4>...ADD SOMETHING...</h4>
         </Header>
       {/* We are passing the currentPage from state and the function to update it */}
   
