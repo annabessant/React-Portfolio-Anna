@@ -2,6 +2,7 @@
     width: 100%;
     border: solid 1px gray;
     border-radius: 5px;
+    margin-bottom: 0.5cm;
 }
 
 .Project {
@@ -10,3 +11,4 @@
 .project-link {
     margin:  5px;
 }
+

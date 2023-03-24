@@ -3,6 +3,19 @@
 }
 
 body {
-    margin-left: 2cm;
-    margin-right: 2cm;
+    margin-left: 2cm !important;
+    margin-right: 2cm !important;
+}
+
+.float-left {
+    float: left;
+    margin:25px;
+}
+
+.float-right {
+    float: right;
+    margin: 25px;
+}
+.para-style{
+    margin:25px;
 }
